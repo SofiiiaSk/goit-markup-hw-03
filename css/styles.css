@@ -108,8 +108,8 @@ a {
   color: #404bbf;
 }
 .first-section {
-  background-color: #2e2f42;
   padding: 180px 0;
+  background-color: #2e2f42;
 }
 .page-title {
   text-align: center;
@@ -142,16 +142,19 @@ a {
   cursor: pointer;
 }
 .second-section {
-  padding: 120px;
+  padding: 120px 0;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.list-text {
+.second-list {
   display: flex;
   gap: 24px;
+}
+.points-title {
+  margin-bottom: 8px;
 }
 .strategy-text {
   width: calc((100% - 72px) / 4);
@@ -165,10 +168,9 @@ a {
 .technologies-text {
   width: calc((100% - 72px) / 4);
 }
-.page-title-second {
-  margin-bottom: 8px;
-}
+
 .paragraf {
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -193,12 +195,21 @@ a {
   text-transform: capitalize;
   color: #2e2f42;
 }
+.third-list {
+  display: flex;
+  gap: 24px;
+}
+
 .team-page {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   display: flex;
   gap: 24px;
   background-color: #ffffff;
 }
 .points-title {
+  margin-bottom: 8px;
+  text-align: center;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -213,6 +224,18 @@ a {
   text-transform: capitalize;
   color: #2e2f42;
 }
+.mark-container {
+  padding: 32px 0;
+}
+.tom-container {
+  padding: 32px 0;
+}
+.camila-container {
+  padding: 32px 0;
+}
+.daniel-container {
+  padding: 32px 0;
+}
 .portfolio-page {
   font-weight: 500;
   font-size: 20px;
@@ -220,6 +243,7 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .portfolio-paragraf {
   font-size: 16px;
   line-height: 1.5;
@@ -243,5 +267,4 @@ a {
 }
 .footer-container {
   padding: 100px 0;
-  padding-bottom: 100px;
 }

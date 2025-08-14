@@ -109,16 +109,25 @@ a {
 }
 .first-section {
   background-color: #2e2f42;
+  padding: 180px 0;
 }
 .page-title {
+  text-align: center;
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
+
+  max-width: 496px;
 }
 .one-button {
+  display: block;
+  cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -127,18 +136,37 @@ a {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
-
 .one-button:hover,
 .one-button:focus {
   background-color: #404bbf;
   cursor: pointer;
 }
 .second-section {
+  padding: 120px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.list-text {
+  display: flex;
+  gap: 24px;
+}
+.strategy-text {
+  width: calc((100% - 72px) / 4);
+}
+.punctuality-text {
+  width: calc((100% - 72px) / 4);
+}
+.diligence-text {
+  width: calc((100% - 72px) / 4);
+}
+.technologies-text {
+  width: calc((100% - 72px) / 4);
+}
+.page-title-second {
+  margin-bottom: 8px;
 }
 .paragraf {
   font-size: 16px;
@@ -147,6 +175,7 @@ a {
   color: #434455;
 }
 .third-section {
+  padding: 120px 0;
   background-color: #f4f4fd;
 }
 .points-title {
@@ -156,6 +185,7 @@ a {
   letter-spacing: 0.02em;
 }
 .page-title-third {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -164,6 +194,8 @@ a {
   color: #2e2f42;
 }
 .team-page {
+  display: flex;
+  gap: 24px;
   background-color: #ffffff;
 }
 .points-title {
@@ -204,4 +236,12 @@ a {
 }
 .footer-logo .logo-part {
   color: #f4f4fd;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-container {
+  padding: 100px 0;
+  padding-bottom: 100px;
 }

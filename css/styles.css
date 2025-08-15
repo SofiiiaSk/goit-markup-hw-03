@@ -108,7 +108,7 @@ a {
   color: #404bbf;
 }
 .first-section {
-  padding: 180px 0;
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 .page-title {
@@ -152,21 +152,10 @@ a {
 .second-list {
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 .points-title {
   margin-bottom: 8px;
-}
-.strategy-text {
-  width: calc((100% - 72px) / 4);
-}
-.punctuality-text {
-  width: calc((100% - 72px) / 4);
-}
-.diligence-text {
-  width: calc((100% - 72px) / 4);
-}
-.technologies-text {
-  width: calc((100% - 72px) / 4);
 }
 
 .paragraf {
@@ -245,6 +234,9 @@ a {
 .page-footer {
   background-color: #2e2f42;
 }
+.footer-container {
+  padding: 100px 0;
+}
 .paragraf-footer {
   line-height: 1.5;
   color: #f4f4fd;
@@ -256,7 +248,4 @@ a {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
-}
-.footer-container {
-  padding: 100px 0;
 }

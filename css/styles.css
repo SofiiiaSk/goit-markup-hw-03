@@ -35,6 +35,9 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
+.img {
+  display: block;
+}
 
 /* header */
 
@@ -231,6 +234,10 @@ a {
 .fourth-section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.page-title-third {
+  margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 .fourth-list {
   display: flex;

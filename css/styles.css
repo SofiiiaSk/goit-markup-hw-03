@@ -121,16 +121,23 @@ a {
   background-color: #2e2f42;
 }
 .page-title {
-  text-align: center;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-
   max-width: 496px;
+  margin-top: 188px 0;
+  margin-right: 472px 0;
+  margin-bottom: 292px 0;
 }
 .one-button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
   display: block;
   cursor: pointer;
   min-width: 169px;
@@ -152,10 +159,6 @@ a {
 }
 .second-section {
   padding: 120px 0;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .visually-hidden {
@@ -179,12 +182,22 @@ a {
   width: calc((100% - 72px) / 4);
 }
 .points-title {
-  text-align: center;
+  text-align: left;
   margin-bottom: 8px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 
 .paragraf {
-  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -193,12 +206,6 @@ a {
 .third-section {
   padding: 120px 0;
   background-color: #f4f4fd;
-}
-.points-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 .third-section .page-title-third {
   margin-bottom: 72px;
@@ -217,30 +224,33 @@ a {
 }
 
 .team-page {
-  display: flex;
-  gap: 24px;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
+  margin-bottom: 32px;
 }
 .container-team {
-  padding: 32px 0;
+  padding: 0 15px;
 }
 .team-container {
   padding: 32px 0;
 }
-.points-title {
+
+.team-text {
   text-align: center;
   margin-bottom: 8px;
-  text-align: center;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.paragraf {
+.paragraf-sec {
   text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
 .page-title-third {
@@ -295,6 +305,7 @@ a {
   background-color: #2e2f42;
 }
 .paragraf-footer {
+  max-width: 264px;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;

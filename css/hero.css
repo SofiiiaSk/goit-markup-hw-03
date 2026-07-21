@@ -1,26 +1,47 @@
 .first-section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
+
 .page-title {
-  color: #ffffff;
+  max-width: 496px;
+  margin: 0 auto 48px;
+
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+
   text-align: center;
+  color: #ffffff;
 }
+
 .one-button {
+  display: block;
+  margin: 0 auto;
+
+  min-width: 169px;
+  height: 56px;
+
+  padding: 16px 32px;
+
+  border: none;
+  border-radius: 4px;
+
   background-color: #4d5ae5;
+
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+
   color: #ffffff;
+
+  cursor: pointer;
 }
 
 .one-button:hover,
 .one-button:focus {
   background-color: #404bbf;
-  cursor: pointer;
 }

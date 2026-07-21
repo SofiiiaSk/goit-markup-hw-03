@@ -1,11 +1,27 @@
 .page-footer {
+  padding: 100px 0;
   background-color: #2e2f42;
 }
-.paragraph-footer {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
 }
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.paragraph-footer {
+  max-width: 264px;
+  margin: 0;
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
